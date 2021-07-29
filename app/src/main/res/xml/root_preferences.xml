@@ -1,0 +1,47 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/tab1_header">
+
+        <EditTextPreference
+            app:key="tab1TextValue"
+            app:title="@string/tab1text_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="tab1TextSize"
+            app:title="@string/tab1size_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="#FFFFFF"
+            app:entries="@array/tab1_colors"
+            app:entryValues="@array/tab1colors_values"
+            app:key="tab1color"
+            app:title="@string/tab1color_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/tab2_header">
+
+        <EditTextPreference
+            app:key="tab2TextValue"
+            app:title="@string/tab2text_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="tab2TextSize"
+            app:title="@string/tab2size_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="#FFFFFF"
+            app:entries="@array/tab2_colors"
+            app:entryValues="@array/tab2colors_values"
+            app:key="tab2color"
+            app:title="@string/tab2color_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
